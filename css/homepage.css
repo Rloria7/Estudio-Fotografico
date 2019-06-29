@@ -1,0 +1,168 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#menu li a{
+transition: 0.5s all;
+text-transform: uppercase;
+}
+.navbar{
+width: 100%;
+padding: 20px;
+top: 0px;
+transition: 5s;
+}
+.navbar ul li:hover{
+color: green;
+border: #947d54;
+transition: .5s;
+}
+.filters {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 70px;
+}
+
+.filters > li {
+	display: inline-block;
+	margin: 5px 30px;
+}
+
+.filters > li sup {
+	top: -.7em;
+	font-size: 80%;
+	color: #999;
+}
+
+.filters > li > a {
+	text-transform: uppercase;
+	color: #111;
+}
+
+.filters > li > a:hover, .filters > li > a.current,
+.filters > li > a:hover sup, .filters > li > a.current sup {
+	color: #999;
+}
+.overlay-navigation-footer {
+	font-size: 1.2rem;
+	position: absolute;
+	left: 0;
+	bottom: 18px;
+	width: 100%;
+	color: #666;
+}
+span{
+font-weight: 500;
+color: #b8298b;
+}
+/* links sociales */
+
+.social-text-links,
+.social-icon-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.socicon-round > li > a {
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	     -o-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.socicon-circle > li > a {
+	-webkit-border-radius: 100%;
+	   -moz-border-radius: 100%;
+	     -o-border-radius: 100%;
+	        border-radius: 100%;
+}
+
+.social-text-links > li {
+	display: inline-block;
+	margin: 0 10px 20px;
+}
+
+.social-icon-links > li {
+	display: inline-block;
+	margin: 0 5px 10px 0;
+}
+
+.social-icon-links > li > a {
+	display: inline-block;
+	background: #f7f7f7;
+	height: 36px;
+	width: 36px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 14px;
+	color: #111;
+}
+.social-icon-links > li > a:hover {
+	background: #f0f0f0;
+}
+/* galery */
+    .galeria {
+	column-count: 3;
+	column-width: 33%;
+	}
+	.galeria .pics:hover{
+	transform: scale(gray);
+	}
+	.galeria .pics{
+	transition: 2s;
+	}
+	.container-footer{
+	background: #343a40;
+	color: #686868;
+	height: 130px;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	margin: 0;
+	left: 0px;
+	padding-top: 20px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: hsl(209, 77%, 68%);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 25px;
+}
+#myBtn:hover {
+  background-color: rgb(9, 2, 37); 
+  transition: all 0.5s ease;
+}
+
+	@media (max-width: 450px) {
+	.galeria {
+	column-count: 1;
+	column-width: 100%;
+	}
+	}
+	@media(max-width: 768px) {
+		.video{
+		padding-bottom: 10px;
+		margin-left: 50px;
+		}
+		.text1 h2{
+		text-align: center;
+		margin-left: 10px;
+		}
+		.text1 p{
+		justify-content: center;
+		}
+		}

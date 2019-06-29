@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
+body{
+margin: 0;
+padding: 0;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../imagenes/grid2.jpeg);
+background-size: cover;
+background-position: center;
+color: #fff !important;
+}
+html{
+scroll-behavior: smooth;
+}
+.servicios{
+margin: 90px auto;
+text-align: center;
+}
+#menu li a{
+transition: 0.5s all;
+text-transform: uppercase;
+}
+h1{
+text-align: center;
+letter-spacing: 1px;
+}
+h1::after{
+content: ' ';
+background: #fff;
+display: block;
+width: 150px;
+height: 3px;
+margin: 10px  auto;
+}
+p {
+text-align: center;
+
+margin-top: 0px;
+}
+.numeros{
+font-size: 45px;
+color: rgb(14, 131, 121);
+}
+.icon{
+margin: 20px auto;
+padding: 20px;
+height: 80px;
+width: 80px;
+border: 1px solid #fff;
+border-radius: 50%;
+}
+.icon:hover{
+background-color: bisque;
+color: #000;
+transform: rotate(360deg);
+transition: 0.5s ease;
+}
+.col-md-3 :hover{
+box-shadow: 5px 7px 9px -3px rgba(255,255,255,0,5);
+cursor: pointer;
+}
+section{
+padding: 100px 0;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: hsl(209, 77%, 68%);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  #myBtn:hover {
+    background-color: rgb(9, 2, 37); 
+    transition: all 0.5s ease;
+  }
+.precio-tabla{
+text-align: center;
+overflow: hidden;
+align-content: space-around;
+margin: 20px;
+border-radius: 20px;
+box-sizing: border-box;
+box-shadow: inset 0 0 40px rgba(121, 115, 115, 0.2), 0 20px 50px rgba(87, 83, 83, 0.5);
+}
+.precio-tabla:hover{
+top: 10px;
+transform: scale(1.1);
+transition: 0.5s ease;
+}
+.precio-tabla .precio-head{
+padding: 50px;
+background: linear-gradient(45deg,#21ecf3,#2317d3);
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+}
+.precio-tabla .precio-head h4{
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+color: #fff;
+font-weight: 500;
+}
+.precio-tabla .precio-head h2{
+margin: 0;
+padding: 20px 0 0;
+font-size: 25px;
+color: #fff;
+}
+.precio-contenido{
+position: relative;
+}
+.precio-contenido ul{
+position: relative;
+margin: 0;
+padding: 20px 0;
+}
+.precio-contenido ul li{
+list-style: none;
+font-size: 16px;
+padding: 10px 0;
+color: #777;
+cursor: pointer;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+transition: 0.5s;
+}
+.precio-contenido ul li:hover{
+border-left: 10px solid #21ecf3;
+border-right: 10px solid #2317d3;
+}
+.precio-buttom{
+padding-bottom: 10px;
+}
+.precios{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+footer{
+height: 100px;
+
+}
+footer p{
+text-align: center;
+font-size: 20px;
+}
+span{
+font-weight: 500;
+color: #b8298b;
+}
+@media(max-width: 768px) {
+.precio-tabla {
+width: 250px;
+justify-content: center;
+}
+.precios{
+margin-left: 90px;
+
+}

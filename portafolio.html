@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="portfolio fotografia">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="autor" content="Ricardo Loria">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="./css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/portafolio.css">
+    <link rel="shortcut icon" type="image.png" href="./imagenes/fv.png">
+    <script src="./js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+    </script>
+    <title>Portafolio!</title>
+  </head>
+  <body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+                <img src="./imagenes/fv.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Gabby Fotografia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul id="menu" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portafolio.html"style="color:red;">portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estudio.html">Estudio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="precios.html">Precios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- contenedor imagenes -->
+
+
+      <!-- galeria imagenes -->
+  <div class="container text pt-5">
+    <div class="row">
+      <h1 class="text-center wow fadeInLeft" data-wow-delay="1s" >Galeria de  Imagenes</h1>
+    </div>
+    <hr>
+  </div>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('todos')"> todos</button>
+    <button class="btn" onclick="filterSelection('bodas')"> Bodas</button>
+    <button class="btn" onclick="filterSelection('eventos')"> Eventos</button>
+    <button class="btn" onclick="filterSelection('graduaciones')"> Graduaciones</button>
+    <button class="btn" onclick="filterSelection('ejecutivos')"> Ejecutivos</button>
+    <button class="btn" onclick="filterSelection('escuelas')"> Escuelas</button>
+  </div>
+
+  <!-- galeria regilla -->
+  <div class="row">
+    <div class="column bodas">
+      <div class="content">
+        <img src="./imagenes/boda1.jpeg" alt="bodas" style="width:100%">
+      </div>
+    </div>
+    <div class="column bodas">
+      <div class="content">
+        <img src="./imagenes/boda2.jpeg" alt="bodas" style="width:100%">
+      </div>
+    </div>
+    <div class="column bodas">
+      <div class="content">
+        <img src="./imagenes/boda3.jpeg" alt="bodas" style="width:100%">
+      </div>
+    </div>
+    <div class="column bodas">
+      <div class="content">
+        <img src="./imagenes/boda4.jpeg" alt="bodas" style="width:100%">
+      </div>
+    </div>
+    <div class="column bodas">
+      <div class="content">
+      <img src="./imagenes/boda5.jpeg" alt="bodas" style="width:100%">
+      </div>
+    </div>
+    <div class="column bodas">
+      <div class="content">
+      <img src="./imagenes/boda6.jpeg" alt="bodas" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column eventos">
+      <div class="content">
+        <img src="./imagenes/even1.jpeg" alt="evento" style="width:100%">
+      </div>
+    </div>
+    <div class="column eventos">
+      <div class="content">
+        <img src="./imagenes/even2.jpeg" alt="evento" style="width:100%">
+      </div>
+    </div>
+    <div class="column eventos">
+      <div class="content">
+        <img src="./imagenes/even3.jpeg" alt="evento" style="width:100%">
+      </div>
+    </div>
+    <div class="column eventos">
+      <div class="content">
+        <img src="./imagenes/even4.jpeg" alt="evento" style="width:100%">
+      </div>
+    </div>
+    <div class="column eventos">
+      <div class="content">
+        <img src="./imagenes/even5.jpeg" alt="evento" style="width:100%">
+      </div>
+    </div>
+    <div class="column eventos">
+      <div class="content">
+        <img src="./imagenes/even6.jpeg" alt="evento" style="width:100%">
+      </div>
+    </div>
+    <div class="column graduaciones">
+      <div class="content">
+      <img src="./imagenes/grad4.jpeg" alt="graduaciones" style="width:100%">
+      </div>
+    </div>
+    <div class="column graduaciones">
+      <div class="content">
+      <img src="./imagenes/grad2.jpeg" alt="graduaciones" style="width:100%">
+      </div>
+    </div>
+    <div class="column graduaciones">
+      <div class="content">
+      <img src="./imagenes/grad3.jpeg" alt="graduaciones" style="width:100%">
+      </div>
+    </div>
+    <div class="column graduaciones">
+      <div class="content">
+      <img src="./imagenes/grad1.jpeg" alt="graduaciones" style="width:100%">
+      </div>
+    </div>
+    <div class="column graduaciones">
+      <div class="content">
+      <img src="./imagenes/grad5.jpeg" alt="graduaciones" style="width:100%">
+      </div>
+    </div>
+    <div class="column graduaciones">
+      <div class="content">
+      <img src="./imagenes/grad6.jpeg" alt="graduaciones" style="width:100%">
+      </div>
+    </div>
+    <div class="column ejecutivos">
+      <div class="content">
+      <img src="./imagenes/bussi1.jpeg" alt="ejecutivos" style="width:100%">
+      </div>
+    </div>
+    <div class="column ejecutivos">
+      <div class="content">
+      <img src="./imagenes/bussi2.jpeg" alt="ejecutivos" style="width:100%">
+      </div>
+    </div>
+    <div class="column ejecutivos">
+      <div class="content">
+      <img src="./imagenes/bussi3.jpeg" alt="ejecutivos" style="width:100%">
+      </div>
+    </div>
+    <div class="column ejecutivos">
+      <div class="content">
+      <img src="./imagenes/bussi4.jpeg" alt="ejecutivos" style="width:100%">
+      </div>
+    </div>
+    <div class="column ejecutivos">
+      <div class="content">
+      <img src="./imagenes/bussi5.jpeg" alt="ejecutivos" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column escuelas">
+      <div class="content">
+        <img src="./imagenes/kin1.jpeg" alt="escuelas" style="width:100%">
+      </div>
+    </div>
+    <div class="column escuelas">
+      <div class="content">
+        <img src="./imagenes/kin2.jpeg" alt="escuelas" style="width:100%">
+      </div>
+    </div>
+    <div class="column escuelas">
+      <div class="content">
+        <img src="./imagenes/kin3.jpeg" alt="escuelas" style="width:100%">
+      </div>
+    </div>
+    <div class="column escuelas">
+      <div class="content">
+        <img src="./imagenes/kin4.jpeg" alt="escuelas" style="width:100%">
+      </div>
+    </div>
+    <div class="column escuelas">
+      <div class="content">
+        <img src="./imagenes/kin5.jpeg" alt="escuelas" style="width:100%">
+      </div>
+    </div>
+    <div class="column escuelas">
+      <div class="content">
+        <img src="./imagenes/kin6.jpeg" alt="escuelas" style="width:100%">
+      </div>
+    </div>
+
+  <!-- final rejilla -->
+  <!-- boton -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up fa-1x"></i></button>
+  </div>
+<footer class="container-fluid pb-5">
+    <p class="text-white">&copy Derechos Reservados |<span style="color:#05f7ff;"> Gabby </span> Fotografia 2019</p>
+</footer>
+<script src="./js/portafolio.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
